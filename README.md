@@ -1,5 +1,5 @@
 # eleicoes-2022-1-
-Layout simples usando a biblioteca tkinter, de um sistema que mostra os resultados das eleições presidenciais em tempo real.
+Layout simples feito com a biblioteca tkinter de um sistema que mostra os resultados das eleições presidenciais em tempo real.
 
 Peguei o código originalmente em https://github.com/pycodebr/apuracao_eleicoes_2022 e fiz algumas modificações
 
