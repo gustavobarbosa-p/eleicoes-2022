@@ -4,4 +4,4 @@ Layout simples feito com a biblioteca tkinter de um sistema que mostra os result
 Peguei o código originalmente em https://github.com/pycodebr/apuracao_eleicoes_2022 e fiz algumas modificações
 
 ![image](https://user-images.githubusercontent.com/108037302/194727240-24867924-780a-43fe-a1c8-c1ee7f5c6ad5.png)
-![image](https://user-images.githubusercontent.com/108037302/194727271-2c99c5e2-0dc6-4683-90cb-2faadddc5da1.png)
+![image](https://user-images.githubusercontent.com/108037302/198842428-044becbc-94f3-4ec5-9af2-82c25006cda0.png)
