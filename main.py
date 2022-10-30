@@ -24,7 +24,7 @@ def buscar_resultados():
             candidato2.append(informacoes['pvap'])
     
     # Busca e anexa a porcentagem de seções apuradas
-    secoesApuradas.append(json_data['psa'])
+    secoesApuradas.append(json_data['pst'])
     pctSecoesApuradas['text'] = 'Porcentagem de seções apuradas: ' + secoesApuradas[0] + '%'
 
     # pega as informações e coloca na string
