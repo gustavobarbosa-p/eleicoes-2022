@@ -3,5 +3,6 @@ Layout simples feito com a biblioteca tkinter de um sistema que mostra os result
 
 Peguei o código originalmente em https://github.com/pycodebr/apuracao_eleicoes_2022 e fiz algumas modificações
 
-![image](https://user-images.githubusercontent.com/108037302/194727240-24867924-780a-43fe-a1c8-c1ee7f5c6ad5.png)
-![image](https://user-images.githubusercontent.com/108037302/198842428-044becbc-94f3-4ec5-9af2-82c25006cda0.png)
+![image](https://user-images.githubusercontent.com/108037302/198863073-e382f693-40d0-4fbc-b126-f4ce5306956a.png)
+![image](https://user-images.githubusercontent.com/108037302/198863082-3e2cb420-1ef8-4a2f-9ea5-22b0881e0ef7.png)
+
