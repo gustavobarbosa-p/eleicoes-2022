@@ -49,19 +49,24 @@ def run():
 window = Tk()
 window.title('Apuração eleições 2022')
 
-txt_orientacao = Label(window, text="Clique no botão a para iniciar a apuração")
-txt_orientacao.grid(column=0, row=0, padx=10, pady=10)
+txt_orientacao = Label(window, text="Clique no botão a para iniciar a apuração", font=("Arial", 10))
+txt_orientacao.pack()
+# txt_orientacao.grid(column=0, row=0, padx=10, pady=10)
 
-botao = Button(window, text = "Iniciar apuração", font=('Arial', 8), command=run)
-botao.grid(column=0, row=1, padx=10, pady=10)
+botao = Button(window, text = "Iniciar apuração", font=('Arial', 9), command=run)
+botao.pack()
+# botao.grid(column=0, row=1, padx=10, pady=10)
 
-exibeCandidato1 = Label(window, text='', bg='#f2f2f2')
-exibeCandidato1.grid(column=0, row=2, padx=10)
+exibeCandidato1 = Label(window, text='', bg='#f2f2f2', font=('Arial', 12))
+exibeCandidato1.pack()
+# exibeCandidato1.grid(column=0, row=2, padx=10)
 
-exibeCandidato2 = Label(window, text='', bg='#f2f2f2')
-exibeCandidato2.grid(column=0, row=3, padx=10)
+exibeCandidato2 = Label(window, text='', bg='#f2f2f2', font=('Arial', 12))
+exibeCandidato2.pack()
+# exibeCandidato2.grid(column=0, row=3, padx=10)
 
-pctSecoesApuradas = Label(window, text='Porcentagem de seções apuradas: ', font=('Arial', 9), bg='#f2f2f2')
-pctSecoesApuradas.grid(column=1, row=1, padx=10, pady=20)
+pctSecoesApuradas = Label(window, text='Porcentagem de seções apuradas: ', font=('Arial black', 9), bg='#f2f2f2')
+pctSecoesApuradas.pack(pady=20)
+# pctSecoesApuradas.grid(column=1, row=1, padx=10, pady=20)
 
 window.mainloop()
