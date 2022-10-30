@@ -25,7 +25,7 @@ def buscar_resultados():
     
     # Busca e anexa a porcentagem de seções apuradas
     secoesApuradas.append(json_data['psa'])
-    pctSecoesApuradas['text'] = f'{secoesApuradas[0]}%'
+    pctSecoesApuradas['text'] = 'Porcentagem de seções apuradas: ' + secoesApuradas[0] + '%'
 
     # pega as informações e coloca na string
     texto1 = f'''
@@ -61,7 +61,7 @@ exibeCandidato1.grid(column=0, row=2, padx=10)
 exibeCandidato2 = Label(window, text='', bg='#f2f2f2')
 exibeCandidato2.grid(column=0, row=3, padx=10)
 
-pctSecoesApuradas = Label(window, text='', bg='#f2f2f2')
+pctSecoesApuradas = Label(window, text='Porcentagem de seções apuradas: ', font=('Arial', 9), bg='#f2f2f2')
 pctSecoesApuradas.grid(column=1, row=1, padx=10, pady=20)
 
 window.mainloop()
