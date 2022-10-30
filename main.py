@@ -49,16 +49,16 @@ def run():
 window = Tk()
 window.title('Apuração eleições 2022')
 
-txt_orientacao = Label(window, text="Clique no botão a para atualizar os resultados")
+txt_orientacao = Label(window, text="Clique no botão a para iniciar a apuração")
 txt_orientacao.grid(column=0, row=0, padx=10, pady=10)
 
-botao = Button(window, text = "Atualizar Resultados", font=('Arial', 8), command=run)
+botao = Button(window, text = "Iniciar apuração", font=('Arial', 8), command=run)
 botao.grid(column=0, row=1, padx=10, pady=10)
 
-exibeCandidato1 = Label(window, text='indisponível', bg='#f2f2f2')
+exibeCandidato1 = Label(window, text='', bg='#f2f2f2')
 exibeCandidato1.grid(column=0, row=2, padx=10)
 
-exibeCandidato2 = Label(window, text='indisponível', bg='#f2f2f2')
+exibeCandidato2 = Label(window, text='', bg='#f2f2f2')
 exibeCandidato2.grid(column=0, row=3, padx=10)
 
 pctSecoesApuradas = Label(window, text='', bg='#f2f2f2')
